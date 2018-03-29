@@ -7,13 +7,38 @@ and open the template in the editor.
     Created on : Mar 26, 2018, 7:23:06 PM
     Author     : 00140007
 */
-
-
-
-.carousel {
-
+#cabecera{
+    text-align: center;
+    font-family: Lucida Calligraphy;
+    font-size: 30px;
+    color: white;
+    background: red;
 }
-
-.slide {
-
+ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Script MT Bold;
+    color:  white;
+    background: red;
+    padding: 10px;
+    border-radius: 50px;
+}
+#menú{
+    text-align: center;
+}
+img{
+    border-radius: 20px;
+}
+#cuerpo{
+    text-align: center;
+    font-family: High Tower Text;
+    font-size: 20px;
+}
+#pie{
+    text-align: center;
+    font-family: Script MT Bold;
+    color: white;
+    background: red;
 }
