@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 29/03/2018, 01:24:47 AM
+    Created on : 31/03/2018, 01:43:12 AM
     Author     : Usuario
 */
 #cabecera{
@@ -14,10 +14,6 @@ and open the template in the editor.
     color: white;
     background: red;
     padding: 5px;
-}
-img{
-    border-radius: 20px;
-    padding: 15px;
 }
 ul li{
     list-style-type: none;
@@ -30,22 +26,12 @@ ul li{
     padding: 10px;
     border-radius: 50px;
 }
-ul ol{
-    list-style-type: none;
-    display: list-item;
-    
-}
 #menú{
     text-align: center;
-    padding-bottom: 15px;
+    padding: 15px;
 }
-#cuerpo-nosotros{
-    
-}
-#izquierdo{
-   
-}
-#derecho{
+#cuerpo-productos{
+    display: inline;
     
 }
 #pie{
@@ -54,4 +40,3 @@ ul ol{
     color: white;
     background: red;
 }
-
