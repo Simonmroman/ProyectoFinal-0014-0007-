@@ -6,11 +6,78 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Sonu's Technology</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilos/estilos-contacto.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>TODO write content</div>
+        <div id="cabecera">
+            <img src="imagenes/LogoCreated.PNG" width="453px" height="280px" alt=""/>
+            <h3>Si lo imaginas, lo puedes tener</h3>
+            <h3>Apple Authorized Distributor</h3>
+        </div>
+
+        <div id="menú">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>   
+        </div>
+
+        <div id="formulario">
+            <h1> Escríbenos y te responderemos </h1>
+            <form>
+                <div>
+                    <label for="Nombre"> Nombre: </label>
+                    <input type="text" id="Nombre"/>
+                </div>
+                <div>
+                    <label for="Apellidos"> Apellidos: </label>
+                    <input type="text" id="Apellidos"/>
+                </div>
+                <div>
+                    <label for="Teléfono"> Teléfono: </label>
+                    <input type="text" id="Teléfono"/>
+                </div>
+                <div>
+                    <label for="Correo"> eMail: </label>
+                    <input type="emal" id="email"/>
+                </div>
+                <div>
+                    <label for="Asunto"> ¿Qué Necesitas? </label>
+                    <select id="Asunto" name="Asunto">
+                        <option value="" selected="selected"> Elige una Opción </option>
+                        <option value="Información"> Trabaja con nosotros </option>
+                        <option value="Cotiza"> Solicitar Información de algún producto </option>
+                        <option value="Reclamación"> Realizar una reclamación </option>
+                        <option value="Otros"> Otros</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Mensaje"> Mensaje: </label>
+                    <textarea id="Mensaje" cols="80" row="10"></textarea>
+                </div>
+                <div class="Botón">
+                    <button type="submit"> Enviar </button>
+                </div>
+            </form>
+        </div>
+
+        <div id="pie">
+            Calle 24, Ensanche Palma Abajo #56, Santiago De Los Caballeros, República Dominicana.<p>
+                Tels.: 809-565-7000 y 829-233-6407 <p>
+
+                <img src="imagenes/Flickr.png" width="50px" height="50px" alt=""/>
+                <img src="imagenes/facebook1.png" width="70px" height="50px" alt=""/>
+                <img src="imagenes/mail.png" width="50px" height="50px" alt=""/>
+                <img src="imagenes/instagram1.png" width="50px" height="50px" alt=""/>
+                <img src="imagenes/snapchat.png" width="50px" height="50px" alt=""/>
+                <img src="imagenes/twitter1.png" width="50px" height="50px" alt=""/>
+                <img src="imagenes/whatsapp.png" width="70px" height="50px" alt=""/>
+        </div>
+
     </body>
 </html>

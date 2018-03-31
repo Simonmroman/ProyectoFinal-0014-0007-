@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 31/03/2018, 01:43:12 AM
+    Created on : 31/03/2018, 01:14:58 PM
     Author     : Usuario
 */
 #cabecera{
@@ -14,9 +14,6 @@ and open the template in the editor.
     color: white;
     background: red;
     padding: 5px;
-}
-h3{
-    font-size: 30px;
 }
 ul li{
     list-style-type: none;
@@ -36,11 +33,35 @@ ul li{
 img{
     border-radius: 20px;
 }
-#cuerpo-productos{
-    display: inline;
-    
+form{
+    width: 800px;
+    background: red;
+    padding: 5px;
+    border-radius: 2px;
+    margin: 0 auto; 
+}
+h1{
+    text-align: Center;
+    font-family: Lucida Calligraphy;
+}
+form div{
+    margin-bottom: 8px;
+}
+label{
+    font-family: Lucida Calligraphy;
+    width: 200px;
+    text-align: right;
+    display:  inline-block;
+}
+input{
+    width: 200px;
+}
+textArea{
+    width: 500px;
+    vertical-align: middle;
 }
 #pie{
+    margin-top: 1em;
     text-align: center;
     font-family: Script MT Bold;
     color: white;
