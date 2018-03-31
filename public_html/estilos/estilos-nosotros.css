@@ -33,7 +33,7 @@ ul li{
 ul ol{
     list-style-type: none;
     display: list-item;
-    
+
 }
 #menú{
     text-align: center;
@@ -43,13 +43,13 @@ ul ol{
     
 }
 #izquierdo{
-   
+    
 }
 #derecho{
     
 }
 #pie{
-    text-align: center;
+    text-align: center; 
     font-family: Script MT Bold;
     color: white;
     background: red;
