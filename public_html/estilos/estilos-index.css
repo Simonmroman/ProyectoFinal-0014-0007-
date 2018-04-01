@@ -26,6 +26,18 @@ ul li{
     padding: 10px;
     border-radius: 50px;
 }
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    font-size: 30px;
+    background: floralwhite;
+}
+a:visited{
+    color:  blueviolet;
+
+}
 #menú{
     text-align: center;
 }
@@ -38,7 +50,7 @@ img{
     font-size: 20px;
 }
 #pie{
-    text-align: center;
+    text-align: center; 
     font-family: Script MT Bold;
     color: white;
     background: red;

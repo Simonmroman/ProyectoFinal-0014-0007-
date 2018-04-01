@@ -30,6 +30,18 @@ ul li{
     text-align: center;
     padding: 15px;
 }
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    font-size: 30px;
+    background: floralwhite;
+}
+a:visited{
+    color:  blueviolet;
+
+}
 img{
     border-radius: 20px;
 }
@@ -59,10 +71,11 @@ input{
 textArea{
     width: 500px;
     vertical-align: middle;
+    height: 100px;
 }
 #pie{
     margin-top: 1em;
-    text-align: center;
+    text-align: center; 
     font-family: Script MT Bold;
     color: white;
     background: red;

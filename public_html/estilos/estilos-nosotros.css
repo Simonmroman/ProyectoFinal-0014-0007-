@@ -30,9 +30,16 @@ ul li{
     padding: 10px;
     border-radius: 50px;
 }
-ul ol{
-    list-style-type: none;
-    display: list-item;
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    font-size: 30px;
+    background: floralwhite;
+}
+a:visited{
+    color:  blueviolet;
 
 }
 #menú{
@@ -40,13 +47,7 @@ ul ol{
     padding-bottom: 15px;
 }
 #cuerpo-nosotros{
-    
-}
-#izquierdo{
-    
-}
-#derecho{
-    
+    width: 700px;
 }
 #pie{
     text-align: center; 
@@ -54,4 +55,5 @@ ul ol{
     color: white;
     background: red;
 }
+
 
